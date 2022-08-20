@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Fun</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  padding: 20px;
+}
+
+.card {
+  background-color: #a4ff59;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+  padding: 50px 20px;
+  text-align: center;
+  max-width: 100%;
+  width: 800px;
+}
+
+h2, p {
+  margin: 0;
+  opacity: 0.5;
+  letter-spacing: 2px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.card img {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.jokes {
+  font-size: 30px;
+  letter-spacing: 1px;
+  line-height: 40px;
+  margin: 50px auto;
+  max-width: 600px;
+}
+/* img{
+    width: 800px;
+    height: 200px;
+} */
+
+#btn {
+  background-color: #ffffff;
+  color: #a4ff59;
+  border: 0;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+  padding: 14px 40px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#btn:active {
+  -webkit-transform: scale(0.98);
+          transform: scale(0.98);
+}
+
+#btn:focus {
+  outline: 0;
+}
+/*# sourceMappingURL=main.css.map */
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="favicon.ico" alt="">
+        <p>Don't laught Challenge</p>
+        <h2 class="jokes"></h2>
+        <!-- <img src="" alt="" class="gambar"> <br> -->
+        <button id="btn">Tap for another jokes</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
